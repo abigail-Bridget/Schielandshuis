@@ -42,8 +42,10 @@ const tijdperken = [
             {
                 x: 20,
                 y: 62,
-                titel: "De straat",
-                tekst: "In deze periode begon de omgeving rondom het Schielandshuis steeds drukker te worden. Mensen liepen door de straten, handel kwam op gang en de stad begon langzaam te groeien. Wat eerst open en rustig was, werd steeds levendiger.",
+                titel:  "Politiebureau",
+                tekst:  " Rond 1811 kreeg het Schielandshuis een nieuwe functie als politiebureau." +
+                        " Dit betekende dat het gebouw niet langer alleen een plek was waar beslissingen werden genomen, " +
+                        "maar waar ook werd gecontroleerd of mensen zich aan de regels hielden.",
                 afbeelding: "images/voorbeeld.jpg",
                 bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
                 bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
@@ -53,19 +55,30 @@ const tijdperken = [
             {
                 x: 32,
                 y: 52,
-                titel: "De zijkant van het gebouw",
-                tekst: "Aan de zijkant van het Schielandshuis zie je hoe het gebouw echt midden in de stad stond. Het was niet alleen een mooi gebouw, maar ook een plek waar belangrijke beslissingen werden genomen.",
-                afbeelding: "images/voorbeeld.jpg",
+                titel:  "Van vlammen naar herbouw",
+                tekst:  "In 1841 werd het Schielandshuis eigendom van de gemeente Rotterdam en ingericht als museum." +
+                        " In de nacht van 15 op 16 februari 1864 brak er een grote brand uit, waarbij het gebouw grotendeels uitbrandde en ongeveer twee derde van de collectie, inclusief documenten en de oorspronkelijke inrichting, verloren ging." +
+                        " Met behulp van een verzekeringsuitkering werd het museum hersteld en opnieuw ingericht, al gebeurde dit zonder veel aandacht voor het originele ontwerp." +
+                        " In 1867 heropende het museum." +
+                        " Vanaf 1868 kreeg het Schielandshuis ook een archief- en bibliotheekfunctie, met speciale ruimtes voor opslag en studie." +
+                        " De toegang bleef beperkt: bezoekers hadden toestemming nodig. Nieuw archiefmateriaal bleef deels op het stadhuis, omdat het direct beschikbaar moest zijn voor het bestuur..",
+                afbeelding: "images/schielandshuis_brand.png",
                 bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
                 bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
                 bigImgRight: "images/detail-rechts.png",
                 bigImgBottom: "images/detail-onder.png",
+                    
             },
             {
                 x: 50,
                 y: 60,
-                titel: "De ingang",
-                tekst: "De ingang bleef een belangrijk punt. Hier kwamen bestuurders en belangrijke bezoekers binnen. Het gebouw had nog steeds een functie die te maken had met macht en bestuur.",
+                                titel: "Rechtbank",
+                tekst:  "Vanaf ongeveer 1850 werd het Schielandshuis gebruikt als rechtbank." +
+                        " Dit betekende dat er rechtszaken werden gehouden en dat mensen hier kwamen om recht te zoeken." +
+                        " Het gebouw kreeg hierdoor een formele en georganiseerde uitstraling." +
+                        " In een rechtbank is er altijd een duidelijke structuur: een rechter, een verdachte, en mensen die luisteren." +
+                        " Dit zorgde voor een andere dynamiek in de ruimte dan bijvoorbeeld het politiebureau." +
+                        " Een belangrijke persoon die past bij deze periode is Johan Rudolph Thorbecke, omdat hij een grote rol speelde in het ontwikkelen van het Nederlandse rechtssysteem.",
                 afbeelding: "images/voorbeeld.jpg",
                 bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
                 bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
@@ -75,8 +88,12 @@ const tijdperken = [
             {
                 x: 30,
                 y: 70,
-                titel: "Het dagelijks leven",
-                tekst: "Als je naar de mensen kijkt zie je hoe het dagelijks leven eruit zag. Mensen werkten, liepen rond en deden hun eigen dingen. Dit geeft een beeld van hoe Rotterdam toen echt voelde.",
+                titel: "Franse Tijd en Koninklijke Bezoeken aan het Schielandshuis",
+                tekst:  "Tijdens de Franse tijd (vanaf 1795) kwam Nederland onder invloed van Frankrijk te staan en veranderde het bestuur ingrijpend." +
+                        " Het Schielandshuis bleef in gebruik, maar functioneerde binnen dit nieuwe, door Frankrijk aangestuurde systeem, wat zorgde voor een andere manier van werken en minder zelfstandigheid." +
+                        " Een belangrijk moment was het bezoek van Napoleon Bonaparte in oktober 1811, toen hij samen met zijn vrouw Marie Louise in het Schielandshuis verbleef." +
+                        " Voor dit bezoek werd het hek tijdelijk verwijderd zodat koetsen konden voorrijden." +
+                        " Enkele jaren later bezocht ook Alexander I of Russia het gebouw, maar hij weigerde de kamer te betreden waar Napoleon had geslapen.",
                 afbeelding: "images/voorbeeld.jpg",
                 bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
                 bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
