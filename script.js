@@ -4,8 +4,8 @@ const tijdperken = [
         afbeelding: "images/1600.png",
         hotspots: [
             {
-                x: 50,
-                y: 35,
+                x: 43,
+                y: 48,
                 titel: "Het dak",
                 tekst: "Het Schielandshuis had in deze periode een statige en symmetrische opbouw. Het dak en de gevel laten de rijkdom en status van het gebouw zien.",
                 bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
@@ -15,21 +15,21 @@ const tijdperken = [
                 afbeelding: "images/dak.png",
             },
             {
-                x: 65,
-                y: 40,
+                x: 54,
+                y: 38,
                 titel: "De gevel",
                 tekst: "De gevel van het Schielandshuis straalde macht en orde uit en liet de bestuurlijke functie van het gebouw zien."
 
             },
             {
                 x: 50,
-                y: 60,
+                y: 68,
                 titel: "De ingang",
                 tekst: "Via deze ingang kwamen belangrijke bezoekers en bestuurders het gebouw binnen."
             },
             {
-                x: 30,
-                y: 70,
+                x: 64,
+                y: 57,
                 titel: "De omgeving",
                 tekst: "Rondom het Schielandshuis zag Rotterdam er in deze periode heel anders uit dan nu."
             }
@@ -40,8 +40,8 @@ const tijdperken = [
         afbeelding: "images/1700.png",
         hotspots: [
             {
-                x: 20,
-                y: 62,
+                x: 31.5,
+                y: 66,
                 titel: "De straat",
                 tekst: "In deze periode begon de omgeving rondom het Schielandshuis steeds drukker te worden. Mensen liepen door de straten, handel kwam op gang en de stad begon langzaam te groeien. Wat eerst open en rustig was, werd steeds levendiger.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -51,8 +51,8 @@ const tijdperken = [
                 bigImgBottom: "images/detail-onder.png",
             },
             {
-                x: 32,
-                y: 52,
+                x: 39,
+                y: 53,
                 titel: "De zijkant van het gebouw",
                 tekst: "Aan de zijkant van het Schielandshuis zie je hoe het gebouw echt midden in de stad stond. Het was niet alleen een mooi gebouw, maar ook een plek waar belangrijke beslissingen werden genomen.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -62,8 +62,8 @@ const tijdperken = [
                 bigImgBottom: "images/detail-onder.png",
             },
             {
-                x: 50,
-                y: 60,
+                x: 51,
+                y: 74,
                 titel: "De ingang",
                 tekst: "De ingang bleef een belangrijk punt. Hier kwamen bestuurders en belangrijke bezoekers binnen. Het gebouw had nog steeds een functie die te maken had met macht en bestuur.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -74,7 +74,7 @@ const tijdperken = [
             },
             {
                 x: 30,
-                y: 70,
+                y: 85,
                 titel: "Het dagelijks leven",
                 tekst: "Als je naar de mensen kijkt zie je hoe het dagelijks leven eruit zag. Mensen werkten, liepen rond en deden hun eigen dingen. Dit geeft een beeld van hoe Rotterdam toen echt voelde.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -90,8 +90,8 @@ const tijdperken = [
         afbeelding: "images/1800.png",
         hotspots: [
             {
-                x: 13,
-                y: 49,
+                x: 28.5,
+                y: 52,
                 titel: "De omgeving verandert",
                 tekst: "In de 19e eeuw veranderde de stad steeds meer. Nieuwe gebouwen kwamen erbij en de omgeving van het Schielandshuis begon er anders uit te zien dan voorheen.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -101,8 +101,8 @@ const tijdperken = [
                 bigImgBottom: "images/detail-onder.png",
             },
             {
-                x: 81,
-                y: 32,
+                x: 71,
+                y: 45,
                 titel: "De gevel",
                 tekst: "De gevel bleef herkenbaar, maar kreeg door de tijd een andere betekenis. Het gebouw werd minder een plek van bestuur en begon langzaam een andere rol te krijgen.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -112,8 +112,8 @@ const tijdperken = [
                 bigImgBottom: "images/detail-onder.png",
             },
             {
-                x: 49,
-                y: 22,
+                x: 49.5,
+                y: 18,
                 titel: "Het dak en details",
                 tekst: "De details van het gebouw laten nog steeds de oude stijl zien. Ondanks alle veranderingen bleef het Schielandshuis een belangrijk herkenningspunt in de stad.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -124,7 +124,7 @@ const tijdperken = [
             },
             {
                 x: 50,
-                y: 70,
+                y: 75,
                 titel: "Nieuwe functie",
                 tekst: "In deze periode veranderde de functie van het gebouw. Het werd niet meer alleen gebruikt voor bestuur, maar kreeg een nieuwe betekenis binnen Rotterdam.",
                 afbeelding: "images/voorbeeld.jpg",
@@ -140,26 +140,26 @@ const tijdperken = [
         afbeelding: "images/heden.png",
         hotspots: [
             {
-                x: 23,
-                y: 37,
+                x: 29.5,
+                y: 30,
                 titel: "Het Schielandshuis vandaag",
                 tekst: "Vandaag de dag is het Schielandshuis een plek vol geschiedenis. Het gebouw wordt gezien als een belangrijk onderdeel van het verleden van Rotterdam."
             },
             {
-                x: 71,
+                x: 73,
                 y: 52,
                 titel: "De stad eromheen",
                 tekst: "De omgeving is compleet veranderd. Waar vroeger open ruimte was, is nu een drukke stad ontstaan met moderne gebouwen en veel activiteit."
             },
             {
                 x: 47,
-                y: 65,
+                y:55,
                 titel: "Het gebouw als erfgoed",
                 tekst: "Het Schielandshuis wordt nu vooral gezien als erfgoed. Het vertelt het verhaal van hoe Rotterdam zich door de jaren heen heeft ontwikkeld."
             },
             {
-                x: 14,
-                y: 75,
+                x: 23,
+                y: 87,
                 titel: "Van toen naar nu",
                 tekst: "Als je kijkt naar vroeger en nu zie je hoeveel er is veranderd. Het Schielandshuis is één van de weinige plekken die die hele geschiedenis nog zichtbaar maakt."
             }
