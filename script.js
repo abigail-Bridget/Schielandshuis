@@ -108,45 +108,59 @@ const tijdperken = [
                 x: 28.5,
                 y: 52,
                 titel: "De omgeving verandert",
-                tekst: "In de 19e eeuw veranderde de stad steeds meer. Nieuwe gebouwen kwamen erbij en de omgeving van het Schielandshuis begon er anders uit te zien dan voorheen.",
-                afbeelding: "images/voorbeeld.jpg",
-                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
-                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
-                bigImgRight: "images/detail-rechts.png",
-                bigImgBottom: "images/detail-onder.png",
+                tekst: "In de 19e eeuw veranderde Rotterdam snel. Door handel, scheepvaart en nieuwe gebouwen werd de omgeving rond het Schielandshuis drukker en moderner.",
+                afbeelding: "images/rotterdam_kaart_1800.jpg",
+                bigTekst1: "In de 19e eeuw groeide Rotterdam uit tot een steeds belangrijkere handelsstad. De haven werd drukker, " + 
+                           "er kwamen meer mensen naar de stad en er werd steeds meer gebouwd. Daardoor veranderde ook de omgeving van het Schielandshuis. " + 
+                           "Waar het gebouw vroeger in een andere, rustigere omgeving stond, kwam het nu steeds meer midden in een stad te staan die in ontwikkeling was.",
+                bigTekst2: "Deze verandering is belangrijk, omdat je eraan kunt zien hoe oud en nieuw Rotterdam in deze periode naast elkaar bestonden. "+ 
+                           "Het Schielandshuis bleef een historisch gebouw uit een eerdere tijd, maar stond ondertussen in een stad die steeds moderner werd. "+
+                           "Zo laat deze plek goed zien hoe Rotterdam zich in de 19e eeuw ontwikkelde.",
+                bigImgRight: "images/haven_19e_eeuw.jpg",
+                bigImgBottom: "",
             },
             {
                 x: 71,
                 y: 45,
-                titel: "De gevel",
-                tekst: "De gevel bleef herkenbaar, maar kreeg door de tijd een andere betekenis. Het gebouw werd minder een plek van bestuur en begon langzaam een andere rol te krijgen.",
-                afbeelding: "images/voorbeeld.jpg",
-                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
-                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
-                bigImgRight: "images/detail-rechts.png",
+                titel: "Van bestuursgebouw naar museum",
+                tekst: "Het Schielandshuis kreeg in de 19e eeuw een nieuwe functie. Het gebouw werd gekocht door de gemeente en later gebruikt als museum.",
+                afbeelding: "images/Schielandshuis_oud.jpg",
+                bigTekst1: "In de 19e eeuw veranderde de rol van het Schielandshuis. Het gebouw was niet meer alleen een plek van bestuur en macht, " + 
+                           "maar kreeg ook een nieuwe culturele betekenis. De gemeente Rotterdam kocht het Schielandshuis in 1841 en richtte het in als museum. " + 
+                           "In 1849 opende hier Museum Boymans.",
+                bigTekst2: "Daardoor werd het Schielandshuis meer dan alleen een oud gebouw. Het werd een plek waar kunst, geschiedenis en herinneringen aan de stad werden bewaard. "+
+                           "Dat laat goed zien hoe gebouwen in een veranderende stad soms een nieuwe functie krijgen, zodat ze belangrijk blijven voor volgende generaties.",
+                bigImgRight: "images/museum_interieur.jpg",
                 bigImgBottom: "images/detail-onder.png",
             },
             {
                 x: 49.5,
                 y: 18,
-                titel: "Het dak en details",
-                tekst: "De details van het gebouw laten nog steeds de oude stijl zien. Ondanks alle veranderingen bleef het Schielandshuis een belangrijk herkenningspunt in de stad.",
-                afbeelding: "images/voorbeeld.jpg",
-                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
-                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
-                bigImgRight: "images/detail-rechts.png",
-                bigImgBottom: "images/detail-onder.png",
+                titel: "De brand van 1864",
+                tekst: "In 1864 brak er een grote brand uit in het Schielandshuis. Daarbij gingen veel kunstwerken, documenten en delen van de inrichting verloren.",
+                afbeelding: "images/brand_illustratie_1864.jpg",
+                bigTekst1: "In de nacht van 15 op 16 februari 1864 werd het Schielandshuis getroffen door een grote brand. De brand richtte veel schade aan in het gebouw. "+
+                           "Niet alleen delen van het pand gingen verloren, maar ook belangrijke documenten, kunstwerken en stukken van de oorspronkelijke inrichting. "+
+                           "Dat maakte de brand tot een belangrijk moment in de geschiedenis van het Schielandshuis.",
+                bigTekst2: "Na de brand moest het gebouw worden hersteld en opnieuw worden ingericht. In 1867 ging het weer open. "+
+                           "Juist daardoor laat het Schielandshuis niet alleen een verhaal van rijkdom en geschiedenis zien, maar ook een verhaal van schade, herstel en doorzettingsvermogen. "+
+                           "Het bleef bestaan, ondanks een grote ramp.",
+                bigImgRight: "images/verwoesting_illustratie.jpg",
+                bigImgBottom: "images/Na_de_brand.jpg",
             },
             {
                 x: 50,
-                y: 70,
-                titel: "Nieuwe functie",
-                tekst: "In deze periode veranderde de functie van het gebouw. Het werd niet meer alleen gebruikt voor bestuur, maar kreeg een nieuwe betekenis binnen Rotterdam.",
-                afbeelding: "images/voorbeeld.jpg",
-                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
-                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
-                bigImgRight: "images/detail-rechts.png",
-                bigImgBottom: "images/detail-onder.png",
+                y: 75,
+                titel: "Bombardement van 1940 ",
+                tekst: "In 1940 werd Rotterdam zwaar gebombardeerd. Veel van de stad werd verwoest, maar het Schielandshuis bleef staan. Dit maakte een van de weinige historische gebouwen die nog intact was",
+                afbeelding: "images/bombardment.jpg",
+                bigTekst1: "Tijdens het bombardement op Rotterdam in mei 1940 werd een groot deel van de binnenstad verwoest. "+
+                           "Veel gebouwen gingen verloren en het oude centrum van de stad veranderde voorgoed. "+
+                           "Het Schielandshuis bleef echter als een van de weinige oude gebouwen overeind staan.",
+                bigTekst2: "Daardoor kreeg het gebouw nog meer historische betekenis. Het werd een zichtbare herinnering aan het oude Rotterdam en aan alles wat de stad in de periode van 1800 tot 1940 had meegemaakt. "+
+                           "Juist omdat zoveel andere gebouwen verdwenen, is het Schielandshuis vandaag een bijzonder overblijfsel van het verleden.",
+                bigImgRight: "",
+                bigImgBottom: "",
             }
         ]
     },
