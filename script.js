@@ -290,33 +290,15 @@ function openPopup(hotspot, event) {
 
     const popup = document.getElementById("popup");
 
-    // eerst tonen zodat we size kunnen meten
-    popup.classList.remove("hidden");
-
-    const popupRect = popup.getBoundingClientRect();
-
     let x = event.clientX + 20;
     let y = event.clientY + 20;
 
-    const padding = 10;
-
-    // 🔥 check rechterkant
-    if (x + popupRect.width > window.innerWidth) {
-        x = event.clientX - popupRect.width - 20;
-    }
-
-    // 🔥 check onderkant
-    if (y + popupRect.height > window.innerHeight) {
-        y = event.clientY - popupRect.height - 20;
-    }
-
-    // extra safety (niet negatief)
-    x = Math.max(padding, x);
-    y = Math.max(padding, y);
-
     popup.style.left = x + "px";
     popup.style.top = y + "px";
+
+    popup.classList.remove("hidden");
 }
+
 function closePopup() {
     document.getElementById("popup").classList.add("hidden");
 }
