@@ -51,69 +51,69 @@ const tijdperken = [
         ]
     },
     {
-    jaar: "1700",
-    afbeelding: "images/1700.png",
+        jaar: "1700",
+        afbeelding: "images/1700.png",
         hotspots: [
             {
                 x: 31.5,
                 y: 66,
-                titel: "Bestuur en waterbeheer",
-                tekst:  "In de 18e eeuw was het Schielandshuis een belangrijk bestuursgebouw." +
-                        " Hier werden beslissingen genomen over waterbeheer en het onderhoud van dijken en polders.",
-                afbeelding: "images/schieland_kaart_stampioen_1684.jpg",
-                bigTekst1: "In de 18e eeuw speelde het Schielandshuis een belangrijke rol in het bestuur van de regio." +
-                            " Bestuurders van het waterschap kwamen hier samen om te overleggen over waterbeheer, zoals het onderhoud van dijken en polders." +
-                            " Deze beslissingen waren cruciaal, omdat grote delen van het land zonder goed beheer konden overstromen.",
-                bigTekst2: "Het gebouw was een centrale plek waar belangrijke keuzes werden gemaakt die invloed hadden op het dagelijks leven van de inwoners." +
-                            " Zonder goed waterbeheer zouden steden en dorpen in gevaar komen door overstromingen.",
-                bigImgRight: "images/polders_1700.jpg",
-                bigImgBottom: "images/watermap_1700.webp",
+                titel:  "Politiebureau",
+                tekst:  " Rond 1811 kreeg het Schielandshuis een nieuwe functie als politiebureau." +
+                        " Dit betekende dat het gebouw niet langer alleen een plek was waar beslissingen werden genomen, " +
+                        "maar waar ook werd gecontroleerd of mensen zich aan de regels hielden.",
+                afbeelding: "images/voorbeeld.jpg",
+                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
+                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
+                bigImgRight: "images/detail-rechts.png",
+                bigImgBottom: "images/detail-onder.png",
             },
             {
                 x: 39,
                 y: 53,
-                titel: "Nieuwe hotspot",
-                tekst:  " In de 18e eeuw was Rotterdam een groeiende handelsstad." +
-                        " Het Schielandshuis stond midden in een wereld van bestuur, handel en internationale verbindingen.",
-                afbeelding: "images/haven.jpg",
-                bigTekst1:  "Het gebouw was niet alleen een plek voor waterbeheer, maar ook voor overleg tussen bestuurders die moesten omgaan met een snel veranderende stad. Handel,"+
-                            "belastingen en stedelijke groei speelden een steeds grotere rol in de besluiten die hier werden genomen." +
-                            " In plaats van bestuur stond nu het bewaren en tonen van kunst en geschiedenis centraal.",
-                bigTekst2: "Door de ligging van Rotterdam als havenstad kwamen bestuurders regelmatig in aanraking met internationale handel en economische belangen." +
-                            " Het Schielandshuis stond zo letterlijk op het kruispunt van bestuur en handel in een groeiende Europese stad.",
-                bigImgRight: "images/warehouses.webp",
-                bigImgBottom: "images/engraving.jpg",
+                titel:  "Van vlammen naar herbouw",
+                tekst:  "In 1841 werd het Schielandshuis eigendom van de gemeente Rotterdam en ingericht als museum." +
+                        " In de nacht van 15 op 16 februari 1864 brak er een grote brand uit, waarbij het gebouw grotendeels uitbrandde en ongeveer twee derde van de collectie, inclusief documenten en de oorspronkelijke inrichting, verloren ging." +
+                        " Met behulp van een verzekeringsuitkering werd het museum hersteld en opnieuw ingericht, al gebeurde dit zonder veel aandacht voor het originele ontwerp." +
+                        " In 1867 heropende het museum." +
+                        " Vanaf 1868 kreeg het Schielandshuis ook een archief- en bibliotheekfunctie, met speciale ruimtes voor opslag en studie." +
+                        " De toegang bleef beperkt: bezoekers hadden toestemming nodig. Nieuw archiefmateriaal bleef deels op het stadhuis, omdat het direct beschikbaar moest zijn voor het bestuur..",
+                afbeelding: "images/afbeelding.png",
+                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
+                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
+                bigImgRight: "images/schielandshuis_brand.png",
+                bigImgBottom: "images/detail-onder.png",
+                    
             },
             {
                 x: 47,
                 y: 65,
-                titel: "Macht en rijkdom",
-                tekst:  "Het Schielandshuis was een symbool van macht en rijkdom." +
-                        " Het gebouw liet zien hoe belangrijk de bestuurders waren.",
-                afbeelding: "images/regentes.jpg",
-                bigTekst1: "In de 18e eeuw was het Schielandshuis niet alleen een praktisch gebouw, maar ook een statussymbool." +
-                            " De rijke en invloedrijke bestuurders kwamen hier samen om belangrijke beslissingen te nemen.",
-                bigTekst2: "De uitstraling van het gebouw speelde hierbij een grote rol." +
-                            " Met indrukwekkende zalen en een statige gevel liet het zien wie de macht had." +
-                            " Ook werden hier belangrijke gasten ontvangen, wat het gebouw een representatieve functie gaf.",
-                bigImgRight: "images/interieur.jpg",
-                bigImgBottom: "images/council_chambers.jpg",
+                titel: "Rechtbank",
+                tekst:  "Vanaf ongeveer 1850 werd het Schielandshuis gebruikt als rechtbank." +
+                        " Dit betekende dat er rechtszaken werden gehouden en dat mensen hier kwamen om recht te zoeken." +
+                        " Het gebouw kreeg hierdoor een formele en georganiseerde uitstraling." +
+                        " In een rechtbank is er altijd een duidelijke structuur: een rechter, een verdachte, en mensen die luisteren." +
+                        " Dit zorgde voor een andere dynamiek in de ruimte dan bijvoorbeeld het politiebureau." +
+                        " Een belangrijke persoon die past bij deze periode is Johan Rudolph Thorbecke, omdat hij een grote rol speelde in het ontwikkelen van het Nederlandse rechtssysteem.",
+                afbeelding: "images/voorbeeld.jpg",
+                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
+                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
+                bigImgRight: "images/detail-rechts.png",
+                bigImgBottom: "images/detail-onder.png",
             },
             {
                 x: 50,
                 y: 50,
-                titel: "Franse tijd en het Schielanshuis",
-                tekst:  "Aan het einde van de 18e eeuw veranderde de politieke situatie in Nederland ingrijpend. In 1795 werd de Bataafse Republiek uitgeroepen, waarmee Nederland onder sterke Franse invloed kwam te staan." +
-                        " Het bestuur werd hervormd volgens Franse ideeën: centraler georganiseerd en met minder zelfstandigheid voor lokale besturen.",
-                afbeelding: "images/batavian_republic.jpg",
-                bigTekst1:  " Ook het Schielandshuis in Rotterdam bleef in deze periode in gebruik als bestuurlijk en representatief gebouw. De functie bleef dus bestaan, maar de manier waarop het bestuur werkte veranderde mee met het nieuwe centrale systeem." +
-                            " Lokale instellingen moesten zich aanpassen aan regels en structuren die grotendeels door Frankrijk werden beïnvloed." +
-                            " In de periode van het Keizerrijk van Napoleon (vanaf 1804) werd Nederland uiteindelijk zelfs ingelijfd bij het Franse rijk (1810). Hierdoor werd het bestuur nog directer vanuit Frankrijk aangestuurd en kregen steden zoals Rotterdam te maken met striktere controle en organisatie.",
-                bigTekst2:  " Tijdens deze Franse periode vonden er ook officiële bezoeken en inspecties plaats van Franse autoriteiten en hoge functionarissen. Het Schielandshuis bleef daarbij een belangrijk gebouw binnen het stedelijke bestuur en protocol, al veranderde de functie geleidelijk door de centralisatie van macht." +
-                            " Na de val van Napoleon in 1813 kwam er een einde aan de Franse overheersing en begon Nederland zich opnieuw als zelfstandig koninkrijk te vormen. Daarmee herwon het lokale bestuur geleidelijk weer meer autonomie, " +
-                            "en kreeg het Schielandshuis opnieuw een andere rol binnen de veranderende politieke tijd.",
-                bigImgRight: "images/franse_tijd_in_nederland.jpg",
-                bigImgBottom: "images/napoleon.jpg",
+                titel: "Franse Tijd en Koninklijke Bezoeken aan het Schielandshuis",
+                tekst:  "Tijdens de Franse tijd (vanaf 1795) kwam Nederland onder invloed van Frankrijk te staan en veranderde het bestuur ingrijpend." +
+                        " Het Schielandshuis bleef in gebruik, maar functioneerde binnen dit nieuwe, door Frankrijk aangestuurde systeem, wat zorgde voor een andere manier van werken en minder zelfstandigheid." +
+                        " Een belangrijk moment was het bezoek van Napoleon Bonaparte in oktober 1811, toen hij samen met zijn vrouw Marie Louise in het Schielandshuis verbleef." +
+                        " Voor dit bezoek werd het hek tijdelijk verwijderd zodat koetsen konden voorrijden." +
+                        " Enkele jaren later bezocht ook Alexander I of Russia het gebouw, maar hij weigerde de kamer te betreden waar Napoleon had geslapen.",
+                afbeelding: "images/voorbeeld.jpg",
+                bigTekst1: "Hier komt een uitgebreid verhaal over het dak en waarom het belangrijk was in deze periode.",
+                bigTekst2: "Extra verdieping over architectuur, status en betekenis.",
+                bigImgRight: "images/detail-rechts.png",
+                bigImgBottom: "images/detail-onder.png",
             }
         ]
     },
@@ -273,6 +273,7 @@ document.getElementById("prev").onclick = () => {
     current = (current - 1 + tijdperken.length) % tijdperken.length;
     render();
 };
+
 function openPopup(hotspot, event) {
     currentHotspot = hotspot;
 
@@ -290,33 +291,15 @@ function openPopup(hotspot, event) {
 
     const popup = document.getElementById("popup");
 
-    // eerst tonen zodat we size kunnen meten
-    popup.classList.remove("hidden");
-
-    const popupRect = popup.getBoundingClientRect();
-
     let x = event.clientX + 20;
     let y = event.clientY + 20;
 
-    const padding = 10;
-
-    // 🔥 check rechterkant
-    if (x + popupRect.width > window.innerWidth) {
-        x = event.clientX - popupRect.width - 20;
-    }
-
-    // 🔥 check onderkant
-    if (y + popupRect.height > window.innerHeight) {
-        y = event.clientY - popupRect.height - 20;
-    }
-
-    // extra safety (niet negatief)
-    x = Math.max(padding, x);
-    y = Math.max(padding, y);
-
     popup.style.left = x + "px";
     popup.style.top = y + "px";
+
+    popup.classList.remove("hidden");
 }
+
 function closePopup() {
     document.getElementById("popup").classList.add("hidden");
 }
