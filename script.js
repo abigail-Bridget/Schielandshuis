@@ -3,8 +3,6 @@ let bgAudio = null;
 let currentPlaylist = [];
 let currentSoundIndex = 0;
 let currentPlayingYear = null;
-let current = 0;
-let currentHotspot = null;
 
 const soundMap = {
     "1600": ["building.mp3", "rain.mp3"],
