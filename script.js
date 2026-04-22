@@ -259,7 +259,7 @@ const tijdperken = [
                 bigTekst2: "Daardoor werd het Schielandshuis meer dan alleen een oud gebouw. Het werd een plek waar kunst, geschiedenis en herinneringen aan de stad werden bewaard. "+
                            "Dat laat goed zien hoe gebouwen in een veranderende stad soms een nieuwe functie krijgen, zodat ze belangrijk blijven voor volgende generaties.",
                 bigImgRight: "images/museum_interieur.jpg",
-                bigImgBottom: "images/detail-onder.png",
+                bigImgBottom: "",
             },
             {
                 x: 49.5,
