@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schielandshuis Experience</title>
-
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="experience.css">
 </head>
-
 <body>
 
 <main class="experience-page">
     <section class="experience-container">
-
         <h1 id="year" class="year"></h1>
 
         <button id="prev" class="nav-arrow left">&#10094;</button>
@@ -27,43 +24,73 @@
 
         <!-- Kleine popup -->
         <div id="popup" class="popup hidden">
-            <button id="close-popup" class="close-btn">&times;</button>
+            <button id="close-popup" class="close-btn" aria-label="Sluiten">&times;</button>
+
             <h2 id="popup-title"></h2>
-            <img id="popup-img" src="" alt="Hotspot afbeelding">
-            <p id="popup-text"></p>
+
+            <div class="audio-bar">
+                <button id="audio-btn-small" class="audio-icon-btn" aria-label="Lees tekst voor">
+                    🔊
+                </button>
+                <div class="audio-progress-box">
+                    <div class="reading-status">
+                        <div class="reading-line"></div>
+                    </div>
+                    <p class="audio-helper-text">Klik op de 🔊 om te luisteren.</p>
+                </div>
+            </div>
+
+            <div class="popup-content-row">
+                <img id="popup-img" src="" alt="Hotspot afbeelding">
+                <p id="popup-text"></p>
+            </div>
+
             <button id="more-btn" class="more-btn">Meer info</button>
         </div>
 
         <!-- Grote popup -->
         <div id="big-popup" class="big-popup hidden">
             <div class="big-popup-card">
-
                 <div class="big-popup-header">
-                    <button id="close-big-popup" class="big-close-btn">&times;</button>
+                    <button id="close-big-popup" class="big-close-btn" aria-label="Sluiten">&times;</button>
                 </div>
 
                 <div class="big-popup-content">
                     <h2 id="big-title"></h2>
 
-                    <img id="big-img-left" class="big-main-img" src="" alt="Afbeelding">
+                    <div class="audio-bar big-audio-bar">
+                        <button id="audio-btn-big" class="audio-icon-btn" aria-label="Lees uitgebreide tekst voor">
+                            🔊
+                        </button>
 
-                    <p id="big-text"></p>
-                    <p id="big-text-extra-1"></p>
+                        <div class="audio-progress-box">
+                            <div class="reading-status">
+                                <div class="reading-line"></div>
+                            </div>
+                            <p class="audio-helper-text">Klik op de 🔊 om te luisteren.</p>
+                        </div>
+                    </div>
 
-                    <img id="big-img-right" class="big-secondary-img" src="" alt="Afbeelding">
+                    <div class="big-popup-layout">
+                        <div class="big-popup-image-column">
+                            <img id="big-img-left" class="big-main-img" src="" alt="Uitgebreide afbeelding">
+                            <img id="big-img-right" class="big-secondary-img" src="" alt="Tweede afbeelding">
+                            <img id="big-img-bottom" class="big-secondary-img" src="" alt="Derde afbeelding">
+                        </div>
 
-                    <p id="big-text-extra-2"></p>
+                        <div class="big-popup-text-column">
+                            <p id="big-text"></p>
+                            <p id="big-text-extra-1"></p>
+                            <p id="big-text-extra-2"></p>
+                        </div>
+                    </div>
 
-                    <img id="big-img-bottom" class="big-secondary-img" src="" alt="Afbeelding">
                 </div>
-
             </div>
         </div>
-
     </section>
 </main>
 
 <script src="script.js"></script>
-
 </body>
 </html>

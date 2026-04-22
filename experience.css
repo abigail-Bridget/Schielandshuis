@@ -125,32 +125,48 @@ body {
 /* KLEINE POPUP */
 .popup {
     position: fixed;
-    width: 280px;
+    width: min(380px, 90vw);
+    max-height: 85vh;
+    overflow-y: auto;
     background: #f5f0eb;
     color: #222;
     padding: 20px;
     border-top: 10px solid #c62828;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
     z-index: 50;
 }
 
-.popup img {
-    display: block;
-    width: 100px;
-    height: auto;
-    margin: 10px 0 14px 0;
-}
-
 .popup h2 {
-    font-size: 1.3rem;
-    margin-bottom: 12px;
+    font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-right: 50px;
 }
 
-.popup p {
-    margin-top: 10px;
-    line-height: 1.5;
-    margin-bottom: 14px;
+.popup-content-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.popup-content-row img {
+    display: block;
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.popup-content-row p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
 }
 
 /* GROTE POPUP */
@@ -162,15 +178,14 @@ body {
     justify-content: center;
     background: rgba(0, 0, 0, 0.25);
     z-index: 100;
-    padding: 30px;
+    padding: 20px;
 }
 
 .big-popup-card {
-    width: 820px;
-    max-width: 90vw;
-    max-height: 85vh;
+    width: min(1100px, 95vw);
+    max-height: 90vh;
     background: #f7ecec;
-    border-radius: 6px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
 }
@@ -184,87 +199,353 @@ body {
 .big-close-btn {
     position: absolute;
     right: 18px;
-    top: 6px;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 2.4rem;
+    top: 8px;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid #d9902f;
+    background: #fff;
+    color: #c62828;
+    font-size: 2rem;
     font-weight: 700;
     cursor: pointer;
     line-height: 1;
 }
 
 .big-popup-content {
-    padding: 26px 32px 30px;
+    padding: 24px 28px 28px;
     overflow-y: auto;
-    max-height: calc(85vh - 58px);
+    max-height: calc(90vh - 58px);
     color: #1f1f1f;
 }
 
 .big-popup-content h2 {
-    font-size: 2rem;
+    font-size: clamp(2rem, 4vw, 3rem);
     margin-bottom: 18px;
     font-weight: 700;
 }
 
-.big-popup-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 18px;
+.big-popup-layout {
+    display: grid;
+    grid-template-columns: minmax(180px, 260px) 1fr;
+    gap: 28px;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.big-popup-image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.big-popup-text-column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.big-popup-text-column p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 0;
 }
 
 .big-main-img {
     display: block;
-    width: 180px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 260px;
     height: auto;
-    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .big-secondary-img {
     display: block;
-    width: 260px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 320px;
     height: auto;
-    margin: 18px 0;
+    margin: 18px 0 0 0;
+    border-radius: 10px;
+}
+
+/* als losse extra afbeeldingen onder elkaar moeten */
+#big-img-right,
+#big-img-bottom {
+    display: block;
+}
+
+/* AUDIO BAR */
+.audio-bar {
+    display: flex;
+    align-items: stretch;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.big-audio-bar {
+    margin-bottom: 24px;
+}
+
+.audio-icon-btn {
+    width: 82px;
+    min-width: 82px;
+    height: 82px;
+    background: #c62828;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 2rem;
+    cursor: pointer;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.audio-icon-btn:hover {
+    background: #a81f1f;
+}
+
+.audio-progress-box {
+    flex: 1;
+    min-width: 0;
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.audio-progress-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 10px;
+}
+
+.audio-line {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background: #9e9e9e;
+    border-radius: 999px;
+    overflow: visible;
+}
+
+
+.audio-dot {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 18px;
+    height: 18px;
+    background: #c62828;
+    border-radius: 50%;
+    transform: translate(0, -50%);
+}
+
+.audio-time {
+    font-size: 1rem;
+    color: #333;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.audio-helper-text {
+    margin: 0;
+    font-size: 0.98rem;
+    color: #444;
+    line-height: 1.5;
 }
 
 /* CLOSE BUTTON */
 .close-btn {
     position: absolute;
-    top: 8px;
-    right: 12px;
-    background: none;
+    top: 12px;
+    right: 14px;
+    background: transparent;
     border: none;
-    font-size: 1.6rem;
+    font-size: 2rem;
     cursor: pointer;
     color: #222;
 }
 
 /* BUTTON */
 .more-btn {
-    margin-top: 15px;
-    padding: 10px 16px;
+    margin-top: 4px;
+    padding: 12px 22px;
     background: #c62828;
     color: white;
     border: none;
-    border-radius: 6px;
-    font-size: 0.9rem;
-    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .more-btn:hover {
     background: #a81f1f;
-    transform: translateY(-1px);
 }
 
 .more-btn:active {
     transform: scale(0.98);
 }
 
+/* FOCUS */
+.audio-icon-btn:focus,
+.close-btn:focus,
+.big-close-btn:focus,
+.more-btn:focus,
+.nav-arrow:focus {
+    outline: 3px solid #ffd54f;
+    outline-offset: 2px;
+}
+
 /* HIDDEN */
 .hidden {
     display: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .big-popup-layout {
+        grid-template-columns: 220px 1fr;
+        gap: 22px;
+    }
+
+    .big-main-img {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 850px) {
+    .popup {
+        width: min(340px, 92vw);
+        padding: 18px;
+    }
+
+    .popup-content-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .popup-content-row img {
+        width: 110px;
+    }
+
+    .audio-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .audio-icon-btn {
+        width: 68px;
+        min-width: 68px;
+        height: 68px;
+        font-size: 1.8rem;
+    }
+
+    .big-popup {
+        padding: 14px;
+    }
+
+    .big-popup-content {
+        padding: 20px;
+    }
+
+    .big-popup-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .big-popup-image-column {
+        order: 1;
+    }
+
+    .big-popup-text-column {
+        order: 2;
+    }
+
+    .big-main-img,
+    .big-secondary-img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px) {
+    .year {
+        font-size: 2rem;
+        padding: 8px 16px;
+    }
+
+    .popup {
+        position: fixed;
+        width: 380px;
+        max-width: 90vw;
+        }
+
+    .popup h2 {
+        font-size: 1.7rem;
+    }
+
+    .audio-progress-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .audio-time {
+        font-size: 0.95rem;
+    }
+
+    .big-popup-card {
+        width: 96vw;
+        max-height: 92vh;
+    }
+
+    .big-popup-content h2 {
+        font-size: 1.9rem;
+    }
+
+    .big-popup-text-column p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .nav-arrow {
+        font-size: 1.5rem;
+        padding: 10px 12px;
+    }
+}
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .big-popup-layout {
+        flex-direction: column;
+    }
+
+    .big-popup-image-column {
+        flex: unset;
+    }
+
+    .big-popup-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .audio-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .audio-icon-btn {
+        width: 72px;
+        height: 72px;
+        font-size: 2rem;
+    }
+
+    .popup-content-row {
+        flex-direction: column;
+    }
+
+
 }
